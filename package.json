@@ -1,0 +1,21 @@
+{
+  "name": "cordova-plugin-photo-usage-description",
+  "version": "0.0.1",
+  "description": "Cordova/PhoneGap plugin for creating a Photo Library Usage Description",
+  "cordova": {
+    "id": "cordova.plugin.photo.usage.description",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChadKoder/cordova-plugin-photo-usage.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "ChadKoder",
+  "license": "Apache 2.0 License"
+}

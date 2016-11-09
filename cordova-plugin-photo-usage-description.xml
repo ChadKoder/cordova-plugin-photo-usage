@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-photo-usage-description"
+        version="0.0.1">
+
+    <name>cordova-plugin-photo-usage-description</name>
+    <description>Cordova/PhoneGap plugin for creating a Photo Library Usage Description</description>
+    <license>Apache 2.0 License</license>
+    <platform name="ios">
+        <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+            <string>Test Description</string>
+        </config-file>
+		
+    </platform>
+</plugin>
