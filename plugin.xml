@@ -7,6 +7,7 @@
     <description>Cordova/PhoneGap plugin for creating a Photo Library Usage Description</description>
     <license>Apache 2.0 License</license>
     <platform name="ios">
+		<preference name="PHOTO_USAGE_DESCRIPTION" default=" " />
         <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
             <string>$PHOTO_USAGE_DESCRIPTION</string>
         </config-file>
