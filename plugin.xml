@@ -8,7 +8,7 @@
     <license>Apache 2.0 License</license>
     <platform name="ios">
         <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
-            <string>Test Description</string>
+            <string>$PHOTO_USAGE_DESCRIPTION</string>
         </config-file>
 		
     </platform>
